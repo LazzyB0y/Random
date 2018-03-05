@@ -2,8 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+// TODO : use a better random generator
 int random_int(int max)
 {
+ int sum = 0;
  return rand() % max;
 }
 int main(int argc, char *argv[])
